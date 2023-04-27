@@ -169,6 +169,8 @@ module.exports = {
 	// 		method: "pauseresume"
 	// 	}
 	// ],
+
+	//some random comment here
 	vue_template: '<div class="countdown"><h2 style=" display: inline; font-size: 1em; padding-left: 135px;">{{teamAname}}</h2><h2 style="display: inline-block; font-size: 1em; margin-left: 20px">{{scoreA}}</h2><h2 style="display: inline-block; font-size: 1em; margin-left: 20px">{{scoreB}}</h2><h2 style=" display: inline; font-size: 1em; padding-left: 145px;">{{teamBname}}</h2><span :style="cssVars" class="counter">{{counter}}</span><div class="teamcolorA" :style="teamAcolor"></div><div class="teamcolorB" :style="teamBcolor"></div></div>',
 	vue_component: getFile("component.js").toString(),
 	css: ".countdown{font-variant-numeric: tabular-nums; background: url(/mediafiles/score_board.png); background-repeat:no-repeat; padding: 3px 29px!important;} .counter{display: inline-block; margin-left: 35px; width: 62px; height: 49px;} .teamcolorA{ display: inline-block; height: 5px; width: 35px;} .teamcolorB{ display: inline-block; height: 5px; width: 35px;} "
